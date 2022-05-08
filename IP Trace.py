@@ -13,11 +13,21 @@ Tool for IP tracing for websites
    d88P     888 888  888  "Y88888 88888P"  888  88888P'
 """
 
-#Imports 
-import sys 
-import os 
-import socket 
-import websockets 
+#Imports
+try:
+    import sys 
+    import os 
+    import socket 
+    import websockets
+    import requests
+    import pyfiglet
+    import nmap 
+    import sniffer
+    import scapy
+except ImportError as imp:
+          print("Error ! Make sure you have installed all the modules used in this program !")
+          print("Modules used: sys, os, socket, websockets, requests, pyfiglet, python-nmap, sniffer, scapy")
+          print(imp)
 
 #End of Imports
 
@@ -39,7 +49,7 @@ print("[8] : Pinterest")
 print("[9] : Snapchat")
 
 choice=input("Please enter the number of the website you want to trace the IP from: ")
-if choice == "1":
+if choice == "1":          
     try:
         IPGoogle = socket.gethostbyname("www.google.com")
         print("The IP for Google is: "+str(IPGoogle))
