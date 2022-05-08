@@ -3,6 +3,14 @@ Author: @new92
 Only for educational purposes 
 The author has no responsibility for any illegal activity carried out using this tool 
 Tool for IP tracing for websites 
+          d8888                   888      d8b
+         d88888                   888      Y8P
+        d88P888                   888
+       d88P 888 88888b.  888  888 88888b.  888 .d8888b
+      d88P  888 888 "88b 888  888 888 "88b 888 88K
+     d88P   888 888  888 888  888 888  888 888 "Y8888b.
+    d8888888888 888  888 Y88b 888 888 d88P 888      X88
+   d88P     888 888  888  "Y88888 88888P"  888  88888P'
 """
 
 #Imports 
@@ -16,16 +24,9 @@ import websockets
 #Main program 
 # An example script to connect to Google using socket
 # programming in Python
-print("""
-          d8888                   888      d8b
-         d88888                   888      Y8P
-        d88P888                   888
-       d88P 888 88888b.  888  888 88888b.  888 .d8888b
-      d88P  888 888 "88b 888  888 888 "88b 888 88K
-     d88P   888 888  888 888  888 888  888 888 "Y8888b.
-    d8888888888 888  888 Y88b 888 888 d88P 888      X88
-   d88P     888 888  888  "Y88888 88888P"  888  88888P'
-""")
+
+ascii_banner = pyfiglet.figlet_format("ANUBIS")
+print(ascii_banner)
 
 print("[1] : Google")
 print("[2] : Youtube")
