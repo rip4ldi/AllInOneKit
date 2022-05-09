@@ -68,7 +68,7 @@ print("Status code = "+str(userinfo.status_code))
 
 #This part of code displays the information which have been gathered 
 time.sleep(2)
-"""
+
 print("Account found | ✓")
 time.sleep(3)
 print("Checking internet connection | ✓")
@@ -99,7 +99,6 @@ print("Gathering other information | ✓")
 time.sleep(5)
 print("Information gathered | ✓")
 time.sleep(5)
-"""
 print("This is the profile Anubis formed with the information: ")
 time.sleep(2)
 print("|----------------PROFILE--------------|")
