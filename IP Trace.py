@@ -41,9 +41,7 @@ def websites():
           print("[8] : Pinterest")
           print("[9] : Snapchat")
 
-#Main program 
-# An example script to connect to Google using socket
-# programming in Python
+#Main program
 
 ascii_banner = pyfiglet.figlet_format("ANUBIS")
 print(ascii_banner)
