@@ -30,6 +30,16 @@ except ImportError as imp:
           print(imp)
 
 #End of Imports
+def websites():
+          print("[1] : Google")
+          print("[2] : Youtube")
+          print("[3] : Facebook")
+          print("[4] : Instagram")
+          print("[5] : Twitter")
+          print("[6] : Netflix")
+          print("[7] : TikTok")
+          print("[8] : Pinterest")
+          print("[9] : Snapchat")
 
 #Main program 
 # An example script to connect to Google using socket
@@ -38,17 +48,13 @@ except ImportError as imp:
 ascii_banner = pyfiglet.figlet_format("ANUBIS")
 print(ascii_banner)
 
-print("[1] : Google")
-print("[2] : Youtube")
-print("[3] : Facebook")
-print("[4] : Instagram")
-print("[5] : Twitter")
-print("[6] : Netflix")
-print("[7] : TikTok")
-print("[8] : Pinterest")
-print("[9] : Snapchat")
+websites()
 
-choice=input("Please enter the number of the website you want to trace the IP from: ")
+choice=int(input("Please enter the number of the website you want to trace the IP from: "))
+while choice < 1 and choice > 9: 
+          print("Invalid choice !")
+          choice=int(input("Please enter again the number of the website you want to trace the IP from: "))
+          websites()
 if choice == "1":          
     try:
         IPGoogle = socket.gethostbyname("www.google.com")
