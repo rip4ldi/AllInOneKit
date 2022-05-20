@@ -17,3 +17,7 @@ All the programs contained have been programmed with Python.
 --> Instagram Phising Attack
 
 --> Twitter Phising Attack 
+
+--> TikTok Information Gathering Tool
+
+--> Facebook Information Gathering Tool
