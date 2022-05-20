@@ -14,10 +14,14 @@ All the programs contained have been programmed with Python.
 
 --> Facebook Phising Attack
 
---> Instagram Phising Attack
+--> Instagram Phising Attack                
 
 --> Twitter Phising Attack 
 
 --> TikTok Information Gathering Tool
 
 --> Facebook Information Gathering Tool
+
+
+![inspector](https://user-images.githubusercontent.com/94779840/169516720-35c46e52-dca4-4126-8f90-2237b9c8a11d.png)
+
