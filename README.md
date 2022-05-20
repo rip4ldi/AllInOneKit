@@ -1,6 +1,5 @@
 # AllInOneKit
-[tets]
-This kit contains many programs for information gathering for websites, (soon) for social media accounts, phising attacks and more...
+This kit contains many programs for information gathering for websites, [soon] for social media accounts, phising attacks and more...
 
 All the programs contained have been programmed with Python. 
 
