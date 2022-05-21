@@ -1,7 +1,7 @@
 """
 Author: @new92
 This program has been made only for educational purposes and under no circumstances can or will be used for illegal activities
-The author has no responsibility for any illegal activity/activities carried out using this tool
+For any illegal activities carried out using this tool the author has no responsibility
           d8888                   888      d8b
          d88888                   888      Y8P
         d88P888                   888
