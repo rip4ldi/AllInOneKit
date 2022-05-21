@@ -1,7 +1,6 @@
 """
 Author: @new92
-Anubis: Tool for Information Gathering
-Made for educational purposes 
+This program has been made only for educational purposes and under no circumstances can or will be used for illegal activities
 The author has no responsibility for any illegal activity/activities carried out using this tool
           d8888                   888      d8b
          d88888                   888      Y8P
