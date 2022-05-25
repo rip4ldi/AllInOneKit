@@ -5,7 +5,7 @@ This kit contains many programs for information gathering for websites, [soon] f
 ![all in one kit](https://user-images.githubusercontent.com/94779840/170300287-5b7b9ae4-59b6-4f13-beb7-da4bc30fe67e.png)
 
 
--------------------FEATURES-------------------
+## FEATURES
 
 ▶ Social Media Brute Forcer :x:
 
@@ -22,7 +22,7 @@ This kit contains many programs for information gathering for websites, [soon] f
 ▶ Facebook Information Gathering Tool :x:
 
 
--------------------ALREADY DONE-------------------
+## ALREADY DONE
 
 ▶ Netflix Phising Attack :white_check_mark:  [NetflixWebPhising] ⇒ https://github.com/new92/AllInOneKit/tree/main/NetflixWebPhising
 
@@ -35,7 +35,7 @@ This kit contains many programs for information gathering for websites, [soon] f
 ▶ Trojan :white_check_mark: ⇒ https://github.com/new92/AllInOneKit/tree/main/Trojan
 
 
--------------------DOWNLOAD-------------------
+## DOWNLOAD 
 
 ## Linux:
 
