@@ -35,7 +35,11 @@ try:
     from geopy.geocoders import Nominatim
 except ImportError as imp:
     print("Error ! Make sure you have installed all the modules used in this program !")
-    print("Modules used: sys, os, nmap, sniffer, socket, requests, cryptography, getpass, json, locale, platform, random, pyfiglet, scapy, subprocess, smtplib, geocoder")
+    time.sleep(1)
+    print("Please enter the command: pip3 install -r requirements.txt")
+    time.sleep(1)
+    print("And execute again the program")
+    time.sleep(1)
     print(imp)
 #End of Imports
 
