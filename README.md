@@ -7,37 +7,37 @@ This kit contains many programs for information gathering for websites, [soon] f
 
 -------------------FEATURES-------------------
 
-▶ Social Media Brute Forcer
+▶ Social Media Brute Forcer :x:
 
-▶ Information Gathering for specific website accounts
+▶ Information Gathering for specific website accounts :x:
 
-▶ Facebook Phising Attack
+▶ Facebook Phising Attack :x:
 
-▶ Instagram Phising Attack                
+▶ Instagram Phising Attack :x:             
 
-▶ Twitter Phising Attack 
+▶ Twitter Phising Attack :x:
 
-▶ TikTok Information Gathering Tool
+▶ TikTok Information Gathering Tool :x:
 
-▶ Facebook Information Gathering Tool
+▶ Facebook Information Gathering Tool :x:
 
 
 -------------------ALREADY DONE-------------------
 
-▶ Netflix Phising Attack ✓    [NetflixWebPhising] ⇒ https://github.com/new92/AllInOneKit/tree/main/NetflixWebPhising
+▶ Netflix Phising Attack :white_check_mark:  [NetflixWebPhising] ⇒ https://github.com/new92/AllInOneKit/tree/main/NetflixWebPhising
 
-▶ Website IP Tracer ✓   [Anubis] ⇒ https://github.com/new92/AllInOneKit/blob/main/Anubis.py
+▶ Website IP Tracer :white_check_mark: [Anubis] ⇒ https://github.com/new92/AllInOneKit/blob/main/Anubis.py
 
-▶ Information Gathering Tool for Social Media Accounts ✓    [Sniffer] ⇒ https://github.com/new92/AllInOneKit/blob/main/Sniffer.py
+▶ Information Gathering Tool for Social Media Accounts :white_check_mark: [Sniffer] ⇒ https://github.com/new92/AllInOneKit/blob/main/Sniffer.py
 
-▶ Information Gathering Tool for Websites ✓   [Phantom] ⇒ https://github.com/new92/AllInOneKit/tree/main/Phantom
+▶ Information Gathering Tool for Websites :white_check_mark: [Phantom] ⇒ https://github.com/new92/AllInOneKit/tree/main/Phantom
 
-▶ Trojan ✓ ⇒ https://github.com/new92/AllInOneKit/tree/main/Trojan
+▶ Trojan :white_check_mark: ⇒ https://github.com/new92/AllInOneKit/tree/main/Trojan
 
 
 -------------------DOWNLOAD-------------------
 
-▶ Linux:
+## Linux:
 
 ● git clone https://github.com/new92/AllInOneKit
 
@@ -48,7 +48,7 @@ This kit contains many programs for information gathering for websites, [soon] f
 ● python3 <program's name>  OR  cd <file's name>  AND  python3 <program's name>
   
 
-▶ Windows:
+## Windows:
 
 ● git clone https://github.com/new92/AllInOneKit
   
@@ -58,7 +58,7 @@ This kit contains many programs for information gathering for websites, [soon] f
   
 ● python3 <program's name>  OR  cd <file's name>  AND  python3 <program's name>
   
-▶ Termux:
+## Termux:
   
 ● pkg update && pkg upgrade
   
