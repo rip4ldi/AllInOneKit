@@ -22,7 +22,9 @@ try:
     import pyfiglet
 except ImportError as i:
     print("Error ! Make sure you have installed all the modules used in this program !")
-    print("Modules used: sys, os, socket, locale, platform, time, requests, sniffer, crypto, cryptography, Cryptodome, pyfiglet")
+    time.sleep(1)
+    print("Please enter the command: pip3 install -r requirements.txt")
+    time.sleep(1)
     print(i)
 #End of imports
 
@@ -50,7 +52,9 @@ except socket.herror() as s:
     print("Error while tracing the IP of the website !")
     print(s)
 FullHostName=socket.getfqdn(IPwebsite)
-"""
+#End of Information Gathering
+
+#Displaying Information / Main program
 print("Website found | ✓")
 time.sleep(3)
 print("Checking internet connection | ✓")
@@ -63,7 +67,6 @@ print("Initiating information gathering | ✓")
 time.sleep(7)
 print("Information gathered | ✓")
 time.sleep(5)
-"""
 print("This is the profile Phantom formed with the information:")
 time.sleep(2)
 print("|----------------PROFILE--------------------|")
