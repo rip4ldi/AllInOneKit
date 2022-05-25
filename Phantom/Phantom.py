@@ -25,6 +25,8 @@ except ImportError as i:
     time.sleep(1)
     print("Please enter the command: pip3 install -r requirements.txt")
     time.sleep(1)
+    print("And execute again the program")
+    time.sleep(1)
     print(i)
 #End of imports
 
