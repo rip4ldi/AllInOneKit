@@ -7,3 +7,5 @@ pyfiglet
 nmap 
 sniffer
 scapy
+crypto
+Cryptography
