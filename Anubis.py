@@ -27,7 +27,7 @@ try:
 except ImportError as imp:
           print("Error ! Make sure you have installed all the modules used in this program !")
           time.sleep(1)
-          print("Please enter the command: pip3 install -r requirements.txt")
+          print("Please enter the command: pip3 install -r requirementsA.txt")
           time.sleep(1)
           print("And execute again the program")
           time.sleep(1)
