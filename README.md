@@ -45,7 +45,7 @@ This kit contains many programs for information gathering for websites, [soon] f
 
 ● pip3 install -r requirements.txt    OR     pip3 install -r requirementsA.txt   for Anubis.py program
 
-● python3 <program's name>  OR  cd <file name>  AND  python3 <program's name>
+● python3 <program's name>  OR  cd <file's name>  AND  python3 <program's name>
   
 
 ▶ Windows:
@@ -56,7 +56,7 @@ This kit contains many programs for information gathering for websites, [soon] f
   
 ● pip3 install -r requirements.txt    OR    pip3 install -r requirementsA.txt    for Anubis.py program
   
-● python3 <program's name>  OR  cd <file name>  AND  python3 <program's name>
+● python3 <program's name>  OR  cd <file's name>  AND  python3 <program's name>
   
 ▶ Termux:
   
@@ -74,6 +74,6 @@ This kit contains many programs for information gathering for websites, [soon] f
   
 ● pip3 install -r requirements.txt    OR    pip3 install -r requirementsA.txt    for Anubis.py program
   
-● python3 <program's name>  OR  cd <file name>  AND  python3 <program's name>  
+● python3 <program's name>  OR  cd <file's name>  AND  python3 <program's name>  
   
   
