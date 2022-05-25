@@ -31,7 +31,11 @@ try:
     from datetime import datetime
 except ImportError as imp:
     print("Error ! Make sure you have installed all the modules used in this program !")
-    print("Modules used: sys, os, socket, pyfiglet, subprocess, locale, platform, random, time, requests, scapy, geocoder, json, getpass, cryptography, sniffer, nmap, from geopy.geocoders imports Nominatim, from datetime import datetime")
+    time.sleep(1)
+    print("Please enter the command: pip3 install requirements.txt")
+    time.sleep(1)
+    print("And execute again the program")
+    time.sleep(1)
     print(imp)
 #End of imports
 
