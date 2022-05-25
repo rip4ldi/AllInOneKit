@@ -26,7 +26,11 @@ try:
     import scapy
 except ImportError as imp:
           print("Error ! Make sure you have installed all the modules used in this program !")
-          print("Modules used: sys, os, socket, websockets, requests, pyfiglet, python-nmap, sniffer, scapy")
+          time.sleep(1)
+          print("Please enter the command: pip3 install -r requirements.txt")
+          time.sleep(1)
+          print("And execute again the program")
+          time.sleep(1)
           print(imp)
 
 #End of Imports
