@@ -28,7 +28,6 @@ try:
     import sniffer
     import nmap
     from geopy.geocoders import Nominatim
-    from datetime import datetime
 except ImportError as imp:
     print("Error ! Make sure you have installed all the modules used in this program !")
     time.sleep(1)
