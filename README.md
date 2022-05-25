@@ -24,15 +24,15 @@ This kit contains many programs for information gathering for websites, [soon] f
 
 -------------------ALREADY DONE-------------------
 
-▶ Netflix Phising Attack ✓    [NetflixWebPhising]
+▶ Netflix Phising Attack ✓    [NetflixWebPhising] ⇒ https://github.com/new92/AllInOneKit/tree/main/NetflixWebPhising
 
-▶ Website IP Tracer ✓   [Anubis]
+▶ Website IP Tracer ✓   [Anubis] ⇒ https://github.com/new92/AllInOneKit/blob/main/Anubis.py
 
-▶ Information Gathering Tool for Social Media Accounts ✓    [Sniffer]
+▶ Information Gathering Tool for Social Media Accounts ✓    [Sniffer] ⇒ https://github.com/new92/AllInOneKit/blob/main/Sniffer.py
 
-▶ Information Gathering Tool for Websites ✓   [Phantom]
+▶ Information Gathering Tool for Websites ✓   [Phantom] ⇒ https://github.com/new92/AllInOneKit/tree/main/Phantom
 
-▶ Trojan ✓
+▶ Trojan ✓ ⇒ https://github.com/new92/AllInOneKit/tree/main/Trojan
 
 
 -------------------DOWNLOAD-------------------
