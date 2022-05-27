@@ -5,7 +5,7 @@ This kit contains many programs for information gathering for websites, phising 
 ![all in one kit](https://user-images.githubusercontent.com/94779840/170300287-5b7b9ae4-59b6-4f13-beb7-da4bc30fe67e.png)
 
 
-## FEATURES
+## TO DO: 
 
 ▶ Social Media Brute Forcer :x:
 
@@ -15,7 +15,7 @@ This kit contains many programs for information gathering for websites, phising 
 
 ▶ Instagram Phising Attack :x:             
 
-▶ Paypal Phising Attack :x:
+▶ Paypal Phising Attack ✅     [PaypalWebPhising] ⇒ 
 
 ▶ Linkedin Phising Attack :x:
 
@@ -26,7 +26,7 @@ This kit contains many programs for information gathering for websites, phising 
 
 ## ALREADY DONE
 
-▶ Netflix Phising Attack :white_check_mark:  [NetflixWebPhising] ⇒ https://github.com/new92/AllInOneKit/tree/main/NetflixWebPhising
+▶ Netflix Phising Attack :white_check_mark:  [NetflixWebPhising] ⇒ <a href="https://github.com/new92/AllInOneKit/tree/main/NetflixWebPhising">Here</a>
 
 ▶ Website IP Tracer :white_check_mark: [Anubis] ⇒ https://github.com/new92/AllInOneKit/blob/main/Anubis.py
 
