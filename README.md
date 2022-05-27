@@ -15,7 +15,7 @@ This kit contains many programs for information gathering for websites, phising 
 
 ▶ Instagram Phising Attack :x:             
 
-▶ Paypal Phising Attack ✅     [PaypalWebPhising] ⇒ 
+▶ Paypal Phising Attack ✅ ➡️  
 
 ▶ Linkedin Phising Attack :x:
 
@@ -26,15 +26,15 @@ This kit contains many programs for information gathering for websites, phising 
 
 ## ALREADY DONE
 
-▶ Netflix Phising Attack :white_check_mark:  [NetflixWebPhising] ⇒ <a href="https://github.com/new92/AllInOneKit/tree/main/NetflixWebPhising">Here</a>
+▶ Netflix Phising Attack :white_check_mark: ➡️ <a href="https://github.com/new92/AllInOneKit/tree/main/NetflixWebPhising">NetflixWebPhising</a>
 
-▶ Website IP Tracer :white_check_mark: [Anubis] ⇒ https://github.com/new92/AllInOneKit/blob/main/Anubis.py
+▶ Website IP Tracer :white_check_mark: ➡️ <a href="https://github.com/new92/AllInOneKit/blob/main/Anubis.py">Anubis</a>
 
-▶ Information Gathering Tool for Social Media Accounts :white_check_mark: [Sniffer] ⇒ https://github.com/new92/AllInOneKit/blob/main/Sniffer.py
+▶ Information Gathering Tool for Social Media Accounts :white_check_mark: ➡️ <a href="https://github.com/new92/AllInOneKit/blob/main/Sniffer.py">Sniffer</a>
 
-▶ Information Gathering Tool for Websites :white_check_mark: [Phantom] ⇒ https://github.com/new92/AllInOneKit/tree/main/Phantom
+▶ Information Gathering Tool for Websites :white_check_mark: ➡️ <a href="https://github.com/new92/AllInOneKit/tree/main/Phantom">Phantom</a>
 
-▶ Trojan :white_check_mark: ⇒ https://github.com/new92/AllInOneKit/tree/main/Trojan
+▶ Trojan :white_check_mark: ➡️ <a href="https://github.com/new92/AllInOneKit/tree/main/Trojan">Trojan</a>
 
 
 ## DOWNLOAD 
