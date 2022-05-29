@@ -2,7 +2,7 @@
 
 <h3>Windows</h3>
 
-▶️ <a href="https://winbuzzer.com/2021/03/31/how-to-open-or-close-a-port-in-windows-10-firewall-xcxwbt/" target="_blank">Windows</a>
+▶️ <a href="https://winbuzzer.com/2021/03/31/how-to-open-or-close-a-port-in-windows-10-firewall-xcxwbt/" target=_blank>Windows</a>
 
 
 <h3>MacOS</h3>
