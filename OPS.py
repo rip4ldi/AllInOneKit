@@ -47,9 +47,13 @@ while option != "01" and option != "02" and option != "1" and option != "2":
     print("Invalid option !")
     option=input("Please enter again: ")
 if option == "01" or option == "1":
-    hostname=socket.gethostname()
-    DevIP=socket.gethostbyname(hostname)
-
+    try:
+        hostname=socket.gethostname()
+        DevIP=socket.gethostbyname(hostname)
+    except Exception as e:
+        print("Error !")
+        print("\n")
+        print(e)
     print("Initiating System Scan for Open Ports")
     time.sleep(10)
     try:
