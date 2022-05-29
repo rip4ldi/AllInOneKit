@@ -41,7 +41,7 @@ This kit contains many programs for information gathering for websites, phising 
 ▶ Open Port Scanner ✅ ➡️ <a href="https://github.com/new92/AllInOneKit/tree/main/OPS">OPS</a>
 
 
-<h1> DOWNLOAD </h1>
+<h2> DOWNLOAD </h2>
 
 ## Linux:
 
