@@ -17,6 +17,8 @@ This kit contains many programs for information gathering for websites, phising 
 
 ▶ Linkedin Phising Attack :x:
 
+▶ Google Phising Attack :x:
+
 ▶ TikTok Information Gathering Tool :x:
 
 ▶ Facebook Information Gathering Tool :x:
