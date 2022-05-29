@@ -15,8 +15,6 @@ This kit contains many programs for information gathering for websites, phising 
 
 ▶ Instagram Phising Attack :x:             
 
-▶ Paypal Phising Attack ✅ ➡️ <a href="https://github.com/new92/AllInOneKit/tree/main/PayPalWebPhising">PayPalWebPhising</a>
-
 ▶ Linkedin Phising Attack :x:
 
 ▶ TikTok Information Gathering Tool :x:
@@ -35,6 +33,8 @@ This kit contains many programs for information gathering for websites, phising 
 ▶ Information Gathering Tool for Websites :white_check_mark: ➡️ <a href="https://github.com/new92/AllInOneKit/tree/main/Phantom">Phantom</a>
 
 ▶ Trojan :white_check_mark: ➡️ <a href="https://github.com/new92/AllInOneKit/tree/main/Trojan">Trojan</a>
+
+▶ Paypal Phising Attack ✅ ➡️ <a href="https://github.com/new92/AllInOneKit/tree/main/PayPalWebPhising">PayPalWebPhising</a>
 
 
 ## DOWNLOAD 
