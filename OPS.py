@@ -52,8 +52,13 @@ if option == "01" or option == "1":
 
     print("Initiating System Scan for Open Ports")
     time.sleep(10)
-    OpenPorts=os.system("nmap --open "+str(DevIP))
-    print(OpenPorts)
+    try:
+        OpenPorts=os.system("nmap --open "+str(DevIP))
+        print(OpenPorts)
+    except Exception as e: 
+        print("Error !")
+        print("\n")
+        print(e)
 
 else: 
     print("Exiting...")
