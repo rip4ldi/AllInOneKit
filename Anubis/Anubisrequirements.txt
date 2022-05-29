@@ -7,3 +7,14 @@ pyfiglet
 nmap 
 sniffer
 scapy
+crypto
+cryptography
+geocoder
+json
+getpass
+platform
+locale
+smtplib
+time
+random
+logging
