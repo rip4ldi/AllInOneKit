@@ -9,7 +9,7 @@ This kit contains many programs for information gathering for websites, phising 
 
 ▶ Social Media Brute Forcer :x:
 
-▶ Information Gathering for specific website accounts :x:
+▶ Information Gathering Tool for specific website accounts :x:
 
 ▶ Facebook Phising Attack :x:
 
