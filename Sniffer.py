@@ -1,7 +1,7 @@
 ﻿"""
 Author: @new92
 Program for information gathering for Social Media accounts 
-Made for educatinoal purposes
+Made for educational purposes
 The author has no responsibility for any illegal activity/activities carried out using this tool
 """
 
