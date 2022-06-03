@@ -36,7 +36,7 @@ This kit contains many programs for information gathering for websites, phising 
 
 ▶ Open Port Scanner ✅ ➡️ <a href="https://github.com/new92/AllInOneKit/tree/main/OPS">OPS</a>
 
-▶ QR Code Generator ✅ ➡️
+▶ QR Code Generator ✅ ➡️ <a href=https://github.com/new92/AllInOneKit/blob/main/QRCodeGenerator.py>QRCodeGenerator</a>
 
 
 <h2> DOWNLOAD </h2>
