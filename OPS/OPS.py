@@ -2,7 +2,7 @@
 Author: @new92
 Program for Scanning the device for open ports
 Not for illegal use !
-The author has no responsibility for any illegal activities carried out using this tool
+The author has no responsibility for any illegal activities carried out using this program
 """
 
 #Imports
