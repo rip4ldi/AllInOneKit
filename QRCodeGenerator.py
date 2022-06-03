@@ -7,6 +7,8 @@ except ImportError as imp:
     time.sleep(1)
     print("Please enter the command: pip3 install -r requirementsQ.txt")
     time.sleep(2)
+    print("And execute again the program")
+    time.sleep(1)
 #End of Imports
 
 #Main program
