@@ -30,8 +30,6 @@ This kit contains many programs for information gathering for websites, phising 
 
 ▶ Netflix Phising Attack :white_check_mark: ➡️ <a href="https://github.com/new92/AllInOneKit/tree/main/NetflixWebPhising">NetflixWebPhising</a>
 
-▶ Website IP Tracer :white_check_mark: ➡️ <a href="https://github.com/new92/AllInOneKit/blob/main/Anubis.py">Anubis</a>
-
 ▶ Information Gathering Tool for Social Media Accounts :white_check_mark: ➡️ <a href="https://github.com/new92/AllInOneKit/blob/main/Sniffer.py">Sniffer</a>
 
 ▶ Information Gathering Tool for Websites :white_check_mark: ➡️ <a href="https://github.com/new92/AllInOneKit/tree/main/Phantom">Phantom</a>
