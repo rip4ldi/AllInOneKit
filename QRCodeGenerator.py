@@ -1,6 +1,12 @@
-#Imports 
-import qrcode
-import time
+#Imports
+try:
+    import qrcode
+    import time
+except ImportError as imp: 
+    print("Error !")
+    time.sleep(1)
+    print("Please enter the command: pip3 install -r requirementsQ.txt")
+    time.sleep(2)
 #End of Imports
 
 #Main program
