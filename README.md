@@ -21,10 +21,6 @@ This kit contains many programs for information gathering for websites, phising 
 
 ▶ Instagram Information Gathering Tool :x:
 
-▶ TikTok Information Gathering Tool :x:
-
-▶ Facebook Information Gathering Tool :x:
-
 
 ## ALREADY DONE:
 
@@ -39,6 +35,8 @@ This kit contains many programs for information gathering for websites, phising 
 ▶ Paypal Phising Attack ✅ ➡️ <a href="https://github.com/new92/AllInOneKit/tree/main/PayPalWebPhising">PayPalWebPhising</a>
 
 ▶ Open Port Scanner ✅ ➡️ <a href="https://github.com/new92/AllInOneKit/tree/main/OPS">OPS</a>
+
+▶ QR Code Generator ✅ ➡️
 
 
 <h2> DOWNLOAD </h2>
