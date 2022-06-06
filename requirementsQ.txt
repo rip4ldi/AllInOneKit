@@ -1,3 +1,0 @@
-qrcode
-pyfiglet
-time
