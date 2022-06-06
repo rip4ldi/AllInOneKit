@@ -1,6 +1,6 @@
 ﻿"""
 Author: @new92
-Program for information gathering for Social Media accounts 
+Program for information gathering for Instagram accounts 
 Made for educational purposes
 The author has no responsibility for any illegal activity/activities carried out using this tool
 """
