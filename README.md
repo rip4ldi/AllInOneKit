@@ -38,6 +38,8 @@ This kit contains many programs for information gathering for websites, phising 
 
 ▶ QR Code Generator ✅ ➡️ <a href=https://github.com/new92/AllInOneKit/blob/main/QRCodeGenerator.py>QRCodeGenerator</a>
 
+▶ Instagram Information Gathering Tool ✅ ➡️ <a href="https://github.com/new92/AllInOneKit/blob/main/Sniffer.py">Sniffer</a>
+
 
 <h2> DOWNLOAD </h2>
 
