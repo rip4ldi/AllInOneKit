@@ -43,16 +43,13 @@ except ImportError as imp:
 snif = pyfiglet.figlet_format("SNIFFER")
 print(snif)
 
-username=input("Please type the username of the victim: ")
+username=input("Please enter the username of the victim: ")
 time.sleep(1)
-socialplatform=input("Please type the social media platform: ")
-socialplatformused=socialplatform.lower()
 usernameused=username.lower()
-Socialplatform=socialplatform.capitalize()
 
 #Information Gathering
 
-userinfo = requests.get("https://www."+str(socialplatformused)+".com/"+str(usernameused))
+userinfo = requests.get("https://www.instagram.com/"+str(usernameused))
 UsefulInfo=userinfo.headers
 OtherInfo=userinfo.content
 if userinfo.status_code == requests.codes.ok: 
@@ -97,8 +94,6 @@ print("This is the profile Sniffer formed with the information: ")
 time.sleep(4)
 print("|----------------PROFILE--------------|                 ")
 print("                                                        ")
-time.sleep(2)
-print("      Platform: "+str(Socialplatform)+"                 ")
 time.sleep(2)
 print("      Username: "+str(username)+"                       ")
 time.sleep(2)
