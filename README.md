@@ -19,8 +19,6 @@ This kit contains many programs for information gathering for websites, phising 
 
 ▶ Google Phising Attack :x:
 
-▶ Instagram Information Gathering Tool :x:
-
 
 ## ALREADY DONE:
 
