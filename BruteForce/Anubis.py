@@ -24,6 +24,9 @@ try:
     import signal
     import csv
     import instagrapi
+    import crypto
+    import Cryptography
+    import pyfiglet
     from tkinter import messagebox
 except ImportError as imp:
     tkinter.messagebox.error("Error !","You haven't installed all the modules used on this program")
