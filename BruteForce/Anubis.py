@@ -271,4 +271,8 @@ if password8 not in "pswrd8.txt":
             print(password9)
         else:
             continue
+if password9 not in "pswrd9.txt":
+    print("Password Found: "+str(Found))
+    time.sleep(2)
+    exit(0)
 #End of the program
