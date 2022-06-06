@@ -7,7 +7,6 @@ This kit contains many programs for information gathering for websites, phising 
 
 ## TO DO: 
 
-▶ Social Media Accounts Brute Forcer :x:
 
 ▶ Information Gathering Tool for specific website accounts :x:
 
@@ -35,6 +34,8 @@ This kit contains many programs for information gathering for websites, phising 
 ▶ Open Port Scanner ✅ ➡️ <a href="https://github.com/new92/AllInOneKit/tree/main/OPS">OPS</a>
 
 ▶ Instagram Information Gathering Tool ✅ ➡️ <a href="https://github.com/new92/AllInOneKit/blob/main/Sniffer.py">Sniffer</a> 
+
+▶ Social Media Accounts Brute Forcer ✅ ➡️ <a href="https://github.com/new92/AllInOneKit/tree/main/BruteForce">BruteForcer</a>
 
 
 <h2> DOWNLOAD </h2>
