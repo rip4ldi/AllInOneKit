@@ -1,5 +1,5 @@
 # AllinOneKit
-This kit contains many programs for brute force for social media accounts, for information gathering for websites, phising attacks, for social media accounts and more...
+This kit contains many programs for brute force for social media accounts, for information gathering for websites, phising attacks, information gathering for social media accounts and more...
 
 
 ![all in one kit](https://user-images.githubusercontent.com/94779840/170300287-5b7b9ae4-59b6-4f13-beb7-da4bc30fe67e.png)
