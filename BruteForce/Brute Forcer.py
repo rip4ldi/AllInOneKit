@@ -1,6 +1,6 @@
 """
 Author: @new92
-Anubis: Program for increasing followers
+BruteForcer: Program for Brute Forcing Social Media Accounts
 Not for illegal purposes !
 The author is not responsible for any illegal activities carried out using this program !!
 User's data (such as: username and/or password) will not be stored or saved !
