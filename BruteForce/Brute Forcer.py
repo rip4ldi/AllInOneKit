@@ -31,7 +31,7 @@ except ImportError as imp:
     time.sleep(2)
 #End of Import
 
-#Use
+#Message
 tkinter.messagebox.showinfo("Use !","This program has been created only for educational purposes! If this program is used for malicious purposes the author has no responsibility !")
 
 #Logo
