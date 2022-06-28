@@ -35,6 +35,8 @@ This kit contains many programs for brute force for social media accounts, for i
 
 ▶ Social Media Accounts Brute Forcer ✅ ➡️ <a href="https://github.com/new92/AllInOneKit/tree/main/BruteForce">BruteForcer</a>
 
+▶ DDoS Website Attack Tool ✅ ➡️ <a href="https://github.com/new92/AllInOneKit/tree/main/DDoS">DDoS</a>
+
 
 <h2> DOWNLOAD </h2>
 
@@ -44,9 +46,9 @@ This kit contains many programs for brute force for social media accounts, for i
 
 ● cd AllInOneKit
 
-● pip3 install -r requirements.txt    OR     pip3 install -r requirementsA.txt   for Anubis.py program
+● pip3 install -r requirements.txt    OR     sudo pip3 install -r requirements.txt
 
-● python3 <program's name>  OR  cd <file's name>  AND  python3 <program's name>
+● python3 <program's name>  OR  cd <folder's name>  AND  python3 <program's name>
   
 
 ## Windows:
@@ -57,7 +59,7 @@ This kit contains many programs for brute force for social media accounts, for i
   
 ● pip3 install -r requirements.txt    OR    pip3 install -r requirementsA.txt    for Anubis.py program
   
-● python3 <program's name>  OR  cd <file's name>  AND  python3 <program's name>
+● python3 <program's name>  OR  cd <folder's name>  AND  python3 <program's name>
   
 ## Termux:
   
@@ -75,6 +77,6 @@ This kit contains many programs for brute force for social media accounts, for i
   
 ● pip3 install -r requirements.txt    OR    pip3 install -r requirementsA.txt    for Anubis.py program
   
-● python3 <program's name>  OR  cd <file's name>  AND  python3 <program's name>  
+● python3 <program's name>  OR  cd <folder's name>  AND  python3 <program's name>  
   
   
